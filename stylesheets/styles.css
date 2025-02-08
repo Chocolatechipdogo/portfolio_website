@@ -6,6 +6,7 @@
 h1 {
     text-align: center;
     vertical-align: bottom;
+    padding: 50%;
 }
 
 h2{
@@ -13,9 +14,3 @@ h2{
     vertical-align: bottom; 
 }
 
-p{
-    
-    text-align: center;
-    vertical-align: bottom; 
-    background-color: blueviolet;
-}
