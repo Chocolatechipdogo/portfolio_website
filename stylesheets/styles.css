@@ -5,8 +5,10 @@
 
 h1 {
     text-align: center;
+    vertical-align: bottom;
 }
 
 h2{
-    text-align: center; 
+    text-align: center;
+    vertical-align: bottom; 
 }
