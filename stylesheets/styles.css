@@ -12,3 +12,9 @@ h2{
     text-align: center;
     vertical-align: bottom; 
 }
+
+p{
+    text-align: center;
+    vertical-align: bottom; 
+    background-color: blueviolet;
+}
