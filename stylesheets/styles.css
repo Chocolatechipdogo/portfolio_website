@@ -22,5 +22,10 @@ h2{
 }
 .button-group{
     text-align: right;
+    background-color: darkgray;
+}
+button{
+    height: 50px;
+    width: 70px;
 }
 
