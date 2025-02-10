@@ -22,7 +22,7 @@ h2{
 }
 .button-group{
     text-align: right;
-    background-color: darkgray;
+    background-color: rgb(83, 83, 83);
 }
 button{
     font-size: 30px;
