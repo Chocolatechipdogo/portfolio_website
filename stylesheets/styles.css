@@ -24,8 +24,8 @@ h2{
 .button-group{
     text-align: right;
     background-color: rgb(83, 83, 83);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 button{
     font-size: 30px;
