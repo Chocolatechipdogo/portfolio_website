@@ -33,7 +33,12 @@ button{
     
 }
 
+.project-imageTemp{
+    padding: 5px;
+}
+
 .project-description{
     text-align: left;
+    padding: 5px;
 }
 
