@@ -21,6 +21,16 @@ h2{
     padding-bottom: 200px;
     
 }
+
+.About-container{
+    padding: 200px;
+}
+
+p{
+    text-align: center;
+    font-size: medium;
+}
+
 .button-group{
     text-align: right;
     background-color: rgb(83, 83, 83);
