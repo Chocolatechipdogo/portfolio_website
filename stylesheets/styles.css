@@ -35,7 +35,7 @@ p{
 
 .button-group{
     text-align: right;
-    background-color: rgb(83, 83, 83);
+    background: linear-gradient(-45deg, #484749, #433b49, #312c3b, #231e38);
     padding-top: 10px;
 
     padding-bottom: 10px;
