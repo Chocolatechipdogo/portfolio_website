@@ -18,7 +18,9 @@ h1 {
 
 h2{
     text-align: center;
-    vertical-align: bottom; 
+    vertical-align: bottom;
+    color: #ffffff;
+
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 200px;
@@ -27,11 +29,14 @@ h2{
 
 .About-container{
     padding: 400px;
+
+    color: #ffffff;
 }
 
 p{
     text-align: center;
     text-size-adjust: 50px;
+    color: #ffffff;
 }
 
 .button-group{
@@ -46,6 +51,10 @@ button{
     
 }
 
+.Projects-container{
+    padding: 400px;
+}
+
 img{
     width: 638px;
 }
@@ -53,6 +62,7 @@ img{
 
 .project-description{
     text-align: left;
+    color: #ffffff;
     padding: 5px;
 }
 
