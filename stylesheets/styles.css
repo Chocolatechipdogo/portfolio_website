@@ -100,7 +100,6 @@ input :focus{
 }
 
 textarea{
-    width: 50px;
     height: 140px;
     border-radius: 20px;
 }
