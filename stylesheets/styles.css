@@ -34,6 +34,8 @@ h3{
 
 .About-container{
     padding-top: 200px;
+    padding-right: 400px;
+    padding-left: 400px;
     padding-bottom: 400px;
     
 
@@ -55,11 +57,14 @@ p{
 }
 button{
     font-size: 30px;
-    
+    background-color: #260c57;
+    color: #ffffff;
 }
 
 .Projects-container{
     padding-top: 200px;
+    padding-right: 400px;
+    padding-left: 400px;
     padding-bottom: 400px;
 }
 
