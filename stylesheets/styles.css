@@ -60,6 +60,9 @@ button{
     background-color: #260c57;
     color: #ffffff;
 }
+button :hover{
+    border: 2px, solid, #1e0986;
+}
 
 .Projects-container{
     padding-top: 200px;
@@ -86,6 +89,23 @@ img{
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    gap: 20px;
+}
+
+input{
+    border-radius: 10px;
+}
+input :focus{
+    border: 2px, solid,#260c57;
+}
+
+textarea{
+    width: 50px;
+    height: 140px;
+    border-radius: 20px;
+}
+textarea :focus{
+    border: 2px, solid,#260c57;
 }
 
 
