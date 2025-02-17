@@ -82,6 +82,12 @@ button :hover{
 img{
     width: 638px;
 }
+.project-imageLeft{
+    align: left;
+} 
+.project-imageRight{
+    align: right;
+} 
 
 
 .project-description{
