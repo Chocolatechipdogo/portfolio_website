@@ -68,8 +68,7 @@ button :hover{
 
 .Projects-container{
     padding-top: 200px;
-    padding-right: 400px;
-    padding-left: 400px;
+
     padding-bottom: 400px;
 
     display: flexbox;
