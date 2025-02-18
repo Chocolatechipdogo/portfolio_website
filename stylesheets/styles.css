@@ -1,9 +1,25 @@
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background: linear-gradient(-45deg, #442f52, #724b92, #260c57, #1e0986);
+    background: linear-gradient(-45deg, #442f52, #724b92, #260c57);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    row-gap: 200px;
+    
+}
+
+.Home-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    padding-top: 200px;
 }
 
 h1 {
@@ -12,21 +28,14 @@ h1 {
     color: #ffffff;
     font-size: 40px; 
     
-    padding-top: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
+    
 
 }
 
 h2{
     text-align: center;
-    vertical-align: bottom;
     color: #ffffff;
     font-size: 40px; 
-
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 200px;
     
 }
 
@@ -35,17 +44,23 @@ h3{
 }
 
 .About-container{
-    padding: 400px;
     
     font-size: 25px;   
     color: #ffffff;
+    justify-items: center;
+    align-items: center;
 }
 
 p{
+    justify-items: center;
+    align-items: center;
     text-align: center;
     text-size-adjust: 50px;
     color: #ffffff;
+    
 }
+
+
 
 .button-group{
     text-align: right;
@@ -64,56 +79,66 @@ button :hover{
 }
 
 .Projects-container{
-    padding-top: 200px;
+   /* padding-top: 400px;
 
     padding-bottom: 400px;
-
+                            */
     display: flexbox;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: left;
+    justify-content: space-evenly;
 
     font-size: 25px;
+}
+.project-title{
+    align-items: center;
+    justify-items: center;
 }
 
 img{
     width: 638px;
-    padding: 20px;
+    padding: 30px;
 }
 .project-imageLeft{
-    align-self: left;
+    align-items: left;
 } 
 .project-imageRight{
-    align-self: right;
+    align-items: right;
 } 
 
 
-.project-description{
+.project-descriptionR{
     text-align: left;
     color: #ffffff;
-    padding: 20px;
+    padding: 30px;
+}
+
+.project-descriptionL{
+    text-align: right;
+    color: #ffffff;
+    padding: 30px;
 }
 
 .contact-container form{
-    padding-top: 200px;
 
     font-size: 25px;
 
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    align-items: center ;
-    justify-content: center;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    
 }
 
 .contact-label{
-    
+    color: #ffffff;
+    text-align: center;
 }
 
 input{
     width: 500px;
     border-radius: 10px;
-    
 
     border: none;
 }
@@ -132,7 +157,7 @@ textarea :focus{
 }
 
 
-@keyframes gradient {
+/*@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -142,4 +167,4 @@ textarea :focus{
     100% {
         background-position: 0% 50%;
     }
-}
+}*/
