@@ -26,7 +26,7 @@ h1 {
     text-align: center;
     vertical-align: bottom;
     color: #ffffff;
-    font-size: 40px; 
+    font-size: 60px; 
     
     
 
@@ -41,6 +41,7 @@ h2{
 
 h3{
     color: #ffffff;
+    font-size: 30px;
 }
 
 .About-container{
@@ -52,19 +53,21 @@ h3{
 }
 
 p{
-    justify-items: center;
-    align-items: center;
     text-align: center;
+    text-wrap: balance;
     text-size-adjust: 50px;
     color: #ffffff;
     
 }
 
 
+a{
+    border: hidden;
+}
 
 .button-group{
     text-align: right;
-    background: linear-gradient(-45deg, #484749, #433b49, #312c3b, #231e38);
+    background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
     padding-top: 10px;
 
     padding-bottom: 10px;
@@ -103,7 +106,7 @@ img{
     align-items: left;
 } 
 .project-imageRight{
-    align-items: right;
+    
 } 
 
 
@@ -138,7 +141,7 @@ img{
 
 input{
     width: 500px;
-    border-radius: 10px;
+    border-radius: 5px;
 
     border: none;
 }
@@ -149,7 +152,7 @@ input :focus{
 textarea{
     width: 500px;
     height: 140px;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 textarea :focus{
