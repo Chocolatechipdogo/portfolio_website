@@ -53,8 +53,10 @@ h3{
 .button-group{
     text-align: right;
     background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
-    padding-top: 10px;
+    border-radius: 10px;
 
+    padding-top: 10px;
+    padding-right: 5px;
     padding-bottom: 10px;
 }
 button{
@@ -141,10 +143,6 @@ p{
     padding-bottom: 50px;
 }
 
-/*img{
-    width: 638px;
-}*/
-
 .project-image{
     width: 638px;
     object-fit: cover;
@@ -153,6 +151,10 @@ p{
 .project-descriptionTexts{  
     color: #ffffff;
 }
+
+
+
+
 
 
 .contact-container{
