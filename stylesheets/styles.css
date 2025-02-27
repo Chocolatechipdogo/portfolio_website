@@ -1,288 +1,310 @@
-
-body {
-    font-family:'Times New Roman', Times, serif;
-    background: linear-gradient(-45deg, #442f52, #724b92, #260c57);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    row-gap: 200px;
     
-}
-
-.Home-container{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-
-    padding-top: 200px;
-}
-
-h1 {
-    text-align: center;
+    body {
+        font-family:'Times New Roman', Times, serif;
+        background: linear-gradient(-45deg, #442f52, #724b92, #260c57);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        row-gap: 200px;
+        
+    }
     
-    color: #ffffff;
-    font-size: 60px; 
+    .Home-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
     
-   /* overflow: hidden;
-    border-right: .15em solid #ffffff;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret 0.75s step-end infinite; */
-    animation: appearLeft 1s linear;
-}
-
-h2{
-    text-align: center;
-    color: #ffffff;
-    font-size: 40px; 
-
-
-   /* overflow: hidden;
-    border-right: .15em solid #ffffff;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret 0.75s step-end infinite;
-    animation-delay: 3.5s;*/
-    animation: appearRight 1s linear;
-}
-
-h3{
-    text-align: center;
-    color: #ffffff;
-    font-size: 30px;
-}
-
-
-
-
-
-
-.button-group{
-    text-align: right;
-    background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
-    border-radius: 10px;
-
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-}
-button{
-    font-size: 30px;
-    background-color: #260c57;
-    color: #ffffff;
-}
-button :hover{
-    border: 2px, solid, #961680;
-}
-
-
-
-
-
-.About-container{
-    font-size: 25px;   
-    color: #ffffff;
-    justify-items: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.self-image{
-    align-items: center;
-    width: 300px;
-    border-radius: 20px;
-    animation: appear ease-in;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-p{
-    text-align: center;
-    text-wrap: balance;
-    text-size-adjust: 50px;
-    color: #ffffff;  
-
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-
-
-
-
-
-
-.Projects-container{
-  
-    display: flexbox;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    font-size: 25px;
-
-}
-.project-title{
-    align-items: center;
-    justify-items: center;
-}
-
-.project-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.idol-container{
-    display: flex;
-    gap: 30px;
-
-    padding-bottom: 50px;
-
-    animation: appearLeft linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+        padding-top: 300px;
+    }
     
-}
-
-.rhythm-container{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 30px;
-
-    padding-bottom: 50px;
-
-    animation: appearRight linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-.farlands-container{
-    display: flex;
-    gap: 30px;
-
-    padding-bottom: 50px;
-
-    animation: appearLeft  linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-.project-image{
-    width: 638px;
-    object-fit: cover;
-}
-
-.project-descriptionTexts{  
-    color: #ffffff;
-}
-
-
-
-
-
-
-.contact-container{
-    background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
-    border-radius: 10px;
-}
-
-.contact-container form{
-
-    font-size: 25px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    row-gap: 20px;
-
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 60px; 
+        height: 60px;
+    }
     
-}
-
-.contact-label{
-    color: #ffffff;
-    text-align: center;
-}
-
-input{
-    width: 500px;
-    border-radius: 5px;
-
-    border: none;
-}
-input :focus{
-    border: 2px, solid,#961680;
-}
-
-textarea{
-    width: 500px;
-    height: 140px;
-    border-radius: 10px;
-
-}
-textarea :focus{
-    border: 2px, solid,#961680;
-}
-
-
-@keyframes typeing{
-    from{
-        width: 0;
+    h2{
+        text-align: center;
+        color: #ffffff;
+        font-size: 40px; 
     }
-    to{
-        width: 100%;
+    
+    h3{
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
     }
-}
-@keyframes blinking{
-    from, to { border-color: transparent }
-  50% { border-color: white; } 
-}
+    
+    .header-title1{
+        height: 60px;
+        animation: appearLeft 0.5s ease-in-out;
+    }
+    .header-title2{
+        animation: appearRight 0.5s ease-in-out;
+    }
+    
+    
+    
+    
+    
+    
+    .button-group{
+        text-align: right;
+        background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
+        border-radius: 10px;
+    
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+    button{
+        font-size: 30px;
+        background-color: #260c57;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    button:hover{
+        border: 2px, solid, #a163b2;
+    }
+    
 
 
-@keyframes appear{
-    from{
-        opacity: 0;
-        scale: 0.5;
-    }
-    to{
-        opacity: 1;
-        scale: 1;
-    }
-}
 
 
 
-@keyframes appearLeft{
-    from{
-        opacity: 0;
-        transform: translate(-100px);
+    .About-container{
+        font-size: 25px;   
+        color: #ffffff;
+        justify-items: center;
+        align-items: center;
+    
     }
-    to{
-        opacity: 1;
-        transform: translate(0px);
+
+    .about-title{
+        padding-bottom: 20px;
     }
-}
-@keyframes appearRight{
-    from{
-        opacity: 0;
-        transform: translate(100px);
+
+    .self-image{
+        align-items: center;
+        width: 300px;
+        border-radius: 20px;
+        animation: appear ease-in;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
     }
-    to{
-        opacity: 1;
-        transform: translate(0px);
+
+    p{
+        text-align: center;
+        text-wrap: balance;
+        text-size-adjust: 50px;
+        color: #ffffff;  
+
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
     }
-}
+    .about-description{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-category{
+        padding-bottom: 10px;
+    }
+
+
+
+
+
+
+
+    .Projects-container{
+    
+        display: flexbox;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        font-size: 25px;
+
+    }
+    .project-title{
+        align-items: center;
+        justify-items: center;
+        padding-bottom: 30px;
+    }
+
+    .project-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .project-button{
+        margin-top: 35px;
+    }
+
+    .idol-container{
+        display: flex;
+        gap: 30px;
+
+        padding-bottom: 200px;
+
+        animation: appearLeft linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+
+    }
+
+    .rhythm-container{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+
+        padding-bottom: 200px;
+
+        animation: appearRight linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    .farlands-container{
+        display: flex;
+        gap: 30px;
+
+        padding-bottom: 100px;
+
+        animation: appearLeft  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    .project-image{
+        width: 638px;
+        max-height: 638px;
+        object-fit: cover;
+    }
+
+    .project-descriptionTexts{  
+        color: #ffffff;
+    }
+
+
+
+
+
+    .contact-container{
+        background: linear-gradient(-45deg, #1c1920, #28212e, #231e38);
+        border-radius: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .contact-container form{
+
+        font-size: 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 20px;
+
+
+    }
+
+    /*.hightlight-text{
+        position: relative;
+    }
+    .hightlight-text::before{
+        background: #28212e;
+    }  Trying to add a box behind the titles   */ 
+
+
+    .contact-title{
+        padding-bottom: 30px;
+    }
+
+    .contact-label{
+        color: #ffffff;
+    }
+
+    input{
+        width: 500px;
+        border-radius: 5px;
+
+        border: none;
+    }
+    input:focus{
+        border: 3.5px, solid, #a163b2;
+    }
+
+    textarea{
+        width: 500px;
+        height: 140px;
+        border-radius: 10px;
+
+    }
+    textarea:focus{
+        border: 3.5px, solid,#a163b2;
+    }
+
+
+    @keyframes typeing{
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    @keyframes blinking{
+        from{border-right-color: #ffffff;}
+        to{border-right-color: transparent;}
+    }
+
+
+
+
+    @keyframes appear{
+        from{
+            opacity: 0;
+            scale: 0.5;
+        }
+        to{
+            opacity: 1;
+            scale: 1;
+        }
+    }
+
+
+
+    @keyframes appearLeft{
+        from{
+            opacity: 0;
+            transform: translate(-100px);
+        }
+        to{
+            opacity: 1;
+            transform: translate(0px);
+        }
+    }
+    @keyframes appearRight{
+        from{
+            opacity: 0;
+            transform: translate(100px);
+        }
+        to{
+            opacity: 1;
+            transform: translate(0px);
+        }
+    }
